@@ -1,0 +1,49 @@
+.HomePage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HomePage > div{
+    width: 100vh;
+}
+
+.LogoContainer{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.SearchBarSection{
+    display: flex;
+    justify-content: center;
+}
+
+.SearchBarContainer{
+    width: 70%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0.1em;
+    border-radius: 1em;
+}
+
+.SearchBarContainer > svg{
+    font-size: 1.2em;
+    padding: 0em 0.5em;
+}
+
+.SearchBarContainer > input{
+    flex: 1;
+    font-size: 1.1em;
+    background: none;
+    max-width: 400px;
+    padding: 5px;
+    /* border-radius: 10px; */
+    border: none;
+
+}
+
+.SearchBarContainer > input:focus{
+    outline: none;
+}
